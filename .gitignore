@@ -1,0 +1,5 @@
+# Arquivos gerados pelo Simulink ao simular ou compilar o modelo
+*.slxc
+slprj/
+*.autosave
+*.asv
