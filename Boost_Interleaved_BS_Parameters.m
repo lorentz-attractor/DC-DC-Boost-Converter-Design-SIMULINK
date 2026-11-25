@@ -5,7 +5,7 @@
 
 Boost_Interleaved_Parameters;   % conversor, ponto de operação e chaves
 
-%% Backstepping integral (cap. 4 do TCC; backstepping_workspace.m e BS_parametros.m)
+%% Backstepping integral (cap. 4 do TCC; BS_parametros.m)
 % kv iguala o ts do PI linear (3,63 ms) na partida 250 -> 280 V; ki = 10*kv
 b_ts = (Vref^2 - (Vref - 0.02*(Vref - Vin))^2)/(Vref^2 - Vin^2);  % faixa de 2 % em energia
 kv   = log(1/b_ts)/3.63e-3;     % Ganho da malha de tensão (= 1062,8 1/s)
